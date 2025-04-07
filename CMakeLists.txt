@@ -40,9 +40,9 @@ foreach(pold "") # Currently Empty
     endif()
 endforeach()
 
-# Build the library with C++11 standard support, independent from other including
+# Build the library with C++20 standard support, independent from other including
 # software which may use a different CXX_STANDARD or CMAKE_CXX_STANDARD.
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
